@@ -54,3 +54,5 @@ app.listen(config.server.port, () => {
 });
 
 export default app;
+
+// Optimized for performance and readability
