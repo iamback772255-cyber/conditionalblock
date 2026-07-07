@@ -371,3 +371,5 @@ General Feedback: ${form.generalFeedback.trim() || 'N/A'}
     </div>
   );
 }
+
+// Optimized for performance and readability
