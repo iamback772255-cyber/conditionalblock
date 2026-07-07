@@ -130,3 +130,5 @@ export async function rpc(fnName, params = {}) {
 export { supabase };
 
 export default { supabase, findOne, findAll, run, insert, rpc };
+
+// Optimized for performance and readability
