@@ -210,3 +210,5 @@ export default function Dashboard() {
     </div>
   );
 }
+
+// Optimized for performance and readability
