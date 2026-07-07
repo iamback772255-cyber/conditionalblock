@@ -174,7 +174,7 @@ export default function ConditionBuilder({ conditions, onChange }) {
                     lineHeight: 1.4
                   }}>
                     <strong style={{ color: 'var(--accent-purple)', display: 'block', marginBottom: 4 }}>How Oracle Conditions Work:</strong>
-                    The AssetBlock monitor will fetch data from your endpoint. If the value returned matches or exceeds your target, the condition is met. 
+                    The ConditionalBlock monitor will fetch data from your endpoint. If the value returned matches or exceeds your target, the condition is met. 
                     <em> Example: Fetching the price of XLM from an exchange API.</em>
                   </div>
                 </div>

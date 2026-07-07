@@ -142,7 +142,7 @@ General Feedback: ${form.generalFeedback.trim() || 'N/A'}
     <div className="page-content animate-fade-in">
       <div className="page-header">
         <h1>Feedback</h1>
-        <p>We'd love to hear your thoughts — help us improve AssetBlock!</p>
+        <p>We'd love to hear your thoughts — help us improve ConditionalBlock!</p>
       </div>
 
       <form

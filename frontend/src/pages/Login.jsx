@@ -146,10 +146,10 @@ export default function Login() {
               filter: 'drop-shadow(0 0 30px rgba(6, 182, 212, 0.25))',
             }}
           />
-          <h1>AssetBlock</h1>
+          <h1>ConditionalBlock</h1>
           <p>Programmable conditional payments on Stellar</p>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '8px', marginBottom: '24px', lineHeight: '1.5' }}>
-            AssetBlock is a decentralized platform that enables you to create secure, time-based escrow smart contracts on the Stellar network. Easily set up programmable payments that hold funds and release them automatically when your specified conditions are met.
+            ConditionalBlock is a decentralized platform that enables you to create secure, time-based escrow smart contracts on the Stellar network. Easily set up programmable payments that hold funds and release them automatically when your specified conditions are met.
           </p>
         </div>
 

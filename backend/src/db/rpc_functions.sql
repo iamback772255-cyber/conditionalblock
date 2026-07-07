@@ -1,5 +1,5 @@
 -- ============================================================
--- AssetBLOCK RPC Functions for Supabase
+-- ConditionalBLOCK RPC Functions for Supabase
 -- Run this in the Supabase SQL Editor AFTER creating tables.
 -- These handle complex JOIN queries that can't be done with
 -- the Supabase query builder alone.

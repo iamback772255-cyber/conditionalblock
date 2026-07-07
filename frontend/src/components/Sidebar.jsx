@@ -44,7 +44,7 @@ export default function Sidebar({ collapsed, onToggle, className = '', isMobile 
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'assetblock_feedback.csv';
+      a.download = 'conditionalblock_feedback.csv';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -89,7 +89,7 @@ export default function Sidebar({ collapsed, onToggle, className = '', isMobile 
           <ABLogo size={40} />
           {(!collapsed || isMobile) && (
             <div style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}>
-              <div style={{ fontWeight: 800, fontSize: '1rem', lineHeight: 1.2 }}>AssetBlock</div>
+              <div style={{ fontWeight: 800, fontSize: '1rem', lineHeight: 1.2 }}>ConditionalBlock</div>
               <div style={{ fontSize: '0.68rem', color: 'var(--text-tertiary)', letterSpacing: '0.06em' }}>
                 SMART PAYMENTS
               </div>

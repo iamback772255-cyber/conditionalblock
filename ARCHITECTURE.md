@@ -1,10 +1,10 @@
-# AssetBlock Architecture
+# ConditionalBlock Architecture
 
-This document outlines the high-level architecture and system design of the AssetBlock decentralized application.
+This document outlines the high-level architecture and system design of the ConditionalBlock decentralized application.
 
 ## Overview
 
-AssetBlock is a full-stack dApp that facilitates programmable conditional payments and smart escrows on the Stellar Network. It utilizes a React-based frontend for user interaction, a Node.js/Express backend for API services and transaction preparation, and a PostgreSQL database (via Supabase) for off-chain data persistence. The core settlement layer is the Stellar blockchain.
+ConditionalBlock is a full-stack dApp that facilitates programmable conditional payments and smart escrows on the Stellar Network. It utilizes a React-based frontend for user interaction, a Node.js/Express backend for API services and transaction preparation, and a PostgreSQL database (via Supabase) for off-chain data persistence. The core settlement layer is the Stellar blockchain.
 
 ## System Diagram
 
@@ -58,6 +58,6 @@ AssetBlock is a full-stack dApp that facilitates programmable conditional paymen
 
 ## Security Model
 
-- **Non-Custodial:** AssetBlock never holds the user's private keys. All transactions that move user funds must be explicitly signed by the user via the Freighter wallet.
+- **Non-Custodial:** ConditionalBlock never holds the user's private keys. All transactions that move user funds must be explicitly signed by the user via the Freighter wallet.
 - **Stateless Authentication:** JWTs are used to authorize backend API calls, preventing unauthorized access to sensitive contract metadata.
 - **Signature Verification:** The backend rigorously verifies the cryptographic signatures on XDR payloads before processing them.

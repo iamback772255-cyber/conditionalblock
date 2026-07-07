@@ -5,11 +5,11 @@
 
 
 
-# AssetBlock ⚡
+# ConditionalBlock ⚡
 
 > Programmable conditional payments and smart escrows on the Stellar Network.
 
-AssetBlock is a decentralized application (dApp) that enables users to create, manage, and execute programmable escrow contracts. By leveraging the speed and low fees of the Stellar blockchain, AssetBlock allows you to set specific conditions (time, multi-signature approvals, or external oracle data) that must be met before funds are released.
+ConditionalBlock is a decentralized application (dApp) that enables users to create, manage, and execute programmable escrow contracts. By leveraging the speed and low fees of the Stellar blockchain, ConditionalBlock allows you to set specific conditions (time, multi-signature approvals, or external oracle data) that must be met before funds are released.
 
 ---
 
@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/3fa744c5-9ad0-4ec8-9ce2-b409dd064293
 ---
 
 ## 📜 Contract Deployment / Admin Wallet Address
-Since AssetBlock uses native Stellar smart-escrow accounts (dynamically generated per escrow), the core transaction flows are sponsored and verified by our central fee-sponsorship and admin wallet:
+Since ConditionalBlock uses native Stellar smart-escrow accounts (dynamically generated per escrow), the core transaction flows are sponsored and verified by our central fee-sponsorship and admin wallet:
 *   **Admin/Sponsor Wallet Address:** `GBZU54GWNKN6HSIA3W6MUKF7GWJFMZBT6YBRDLQ3NZXKGN4IK5ER3O5Y` *(Sponsors creation and fee-bumps for the escrow contracts on Stellar Testnet)*
 
 ---
@@ -83,20 +83,20 @@ User feedback was collected through two channels to maximize user convenience: d
 
 | User Name | User Email | User Wallet Address | User Feedback | Commit ID |
 | :--- | :--- | :--- | :--- | :--- |
-| Madhav Seth | madhav24100@iiitnr.edu.in | `GDTWHQ2P5TAMNCAHLHVNRVHVQLEECRF6AGP2PVU5QHWSKK6BMEVMURCR` | Small numbers in the amount fields lead to mistakes; requested better visual validation. | [`6929c22`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/6929c2260de5d91fe11585ad5ec64401d40d0bca) |
-| Mayank Dixit | mayank24100@iiitnr.edu.in | `GBAUV4WBMA4GZPNTI77O2E2GIV43JNPWOQAQEPOIITZ4BY4JHWRDANFF` | Confused about contract unlock times; requested a localized countdown and timezone indicator. | [`fc12ebb`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/fc12ebbbb1f43c4f0042264aa83fbe2202d8776d) |
-| Harsh Kaushik | harsh.kaushik10b@gmail.com | `GBLZNJQ6IE642PDK6DLZOC6LLBVZ7XAWC2JRGVN76DZBNFD5PIUEIRDW` | Raised concerns about global time adaptation and timezone consistency across different regions. | [`5e3c97c`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/5e3c97c390bc99f17aa371c74bdc2258fab80c48) |
-| Md Athar Sharif | md24100@iiitnr.edu.in | `GATVVSGVMVMWYBHV7MWJTMABOTEWBE4SENJLPDUYXCCPFRDFBUXYFJ2O` | Found complex fields like "Oracle Data" confusing and asked for inline guidance. | [`f3ed0c8`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/f3ed0c87d0c0b789412f3191cd40c6b945424339) |
-| Nandita | nanditasahu141004@gmail.com | `GBZU54GWNKN6HSIA3W6MUKF7GWJFMZBT6YBRDLQ3NZXKGN4IK5ER3O5Y` | Reported a bug where the back button was not working during the contract creation flow. | [`a2866a7`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/a2866a778a5a0e3d48fc71dc9080c65c5bfb9c23) |
+| Madhav Seth | madhav24100@iiitnr.edu.in | `GDTWHQ2P5TAMNCAHLHVNRVHVQLEECRF6AGP2PVU5QHWSKK6BMEVMURCR` | Small numbers in the amount fields lead to mistakes; requested better visual validation. | [`6929c22`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/6929c2260de5d91fe11585ad5ec64401d40d0bca) |
+| Mayank Dixit | mayank24100@iiitnr.edu.in | `GBAUV4WBMA4GZPNTI77O2E2GIV43JNPWOQAQEPOIITZ4BY4JHWRDANFF` | Confused about contract unlock times; requested a localized countdown and timezone indicator. | [`fc12ebb`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/fc12ebbbb1f43c4f0042264aa83fbe2202d8776d) |
+| Harsh Kaushik | harsh.kaushik10b@gmail.com | `GBLZNJQ6IE642PDK6DLZOC6LLBVZ7XAWC2JRGVN76DZBNFD5PIUEIRDW` | Raised concerns about global time adaptation and timezone consistency across different regions. | [`5e3c97c`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/5e3c97c390bc99f17aa371c74bdc2258fab80c48) |
+| Md Athar Sharif | md24100@iiitnr.edu.in | `GATVVSGVMVMWYBHV7MWJTMABOTEWBE4SENJLPDUYXCCPFRDFBUXYFJ2O` | Found complex fields like "Oracle Data" confusing and asked for inline guidance. | [`f3ed0c8`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/f3ed0c87d0c0b789412f3191cd40c6b945424339) |
+| Nandita | nanditasahu141004@gmail.com | `GBZU54GWNKN6HSIA3W6MUKF7GWJFMZBT6YBRDLQ3NZXKGN4IK5ER3O5Y` | Reported a bug where the back button was not working during the contract creation flow. | [`a2866a7`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/a2866a778a5a0e3d48fc71dc9080c65c5bfb9c23) |
 | Mayank Dewangan | mayank24102@iiitnr.edu.in | `GBJKZ6S7XFDNQ4J6PEDWBJI3HMC7EDNM4XBZBX3AEADD7HY2UYAU4GAF` | General positive feedback and usability testing. | N/A |
 
 ### 🚀 Future Roadmap & Evolution
 Based on the collected user feedback and observations during the Level 5 validation phase, we plan to implement the following improvements in the next development cycle:
 
-1. **Enhanced Input Validation:** Expand on the visual amount validation to include real-time fee estimations and balance checks before transaction submission. ([`6929c22`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/6929c2260de5d91fe11585ad5ec64401d40d0bca))
-2. **Localization & Timezones:** Build upon the localized countdown timer to allow users to select their preferred timezone when creating time-bound contracts. ([`fc12ebb`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/fc12ebbbb1f43c4f0042264aa83fbe2202d8776d))
-3. **Inline Tutorials:** Create a guided walkthrough for first-time users, specifically focusing on complex features like "Oracle Data" and "Multi-signature setup". ([`f3ed0c8`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/f3ed0c87d0c0b789412f3191cd40c6b945424339))
-4. **Improved Error Handling:** Implement a more robust error recovery system with descriptive, user-friendly messages for transaction failures. ([`a2866a7`](https://github.com/rajkumarsharma316/AssetBLOCK/commit/a2866a778a5a0e3d48fc71dc9080c65c5bfb9c23))
+1. **Enhanced Input Validation:** Expand on the visual amount validation to include real-time fee estimations and balance checks before transaction submission. ([`6929c22`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/6929c2260de5d91fe11585ad5ec64401d40d0bca))
+2. **Localization & Timezones:** Build upon the localized countdown timer to allow users to select their preferred timezone when creating time-bound contracts. ([`fc12ebb`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/fc12ebbbb1f43c4f0042264aa83fbe2202d8776d))
+3. **Inline Tutorials:** Create a guided walkthrough for first-time users, specifically focusing on complex features like "Oracle Data" and "Multi-signature setup". ([`f3ed0c8`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/f3ed0c87d0c0b789412f3191cd40c6b945424339))
+4. **Improved Error Handling:** Implement a more robust error recovery system with descriptive, user-friendly messages for transaction failures. ([`a2866a7`](https://github.com/rajkumarsharma316/ConditionalBLOCK/commit/a2866a778a5a0e3d48fc71dc9080c65c5bfb9c23))
 
 ---
 
@@ -104,7 +104,7 @@ Based on the collected user feedback and observations during the Level 5 validat
 As part of the final Demo Day preparations, the following production-readiness features have been implemented:
 
 ### 1. Advanced Features 🌟
-AssetBLOCK highlights two core advanced features:
+ConditionalBLOCK highlights two core advanced features:
 - **Fee Sponsorship (FeeBumpTransactions)**: Allows the platform to cover transaction fees for users seamlessly, providing a gasless experience. Implemented via Stellar's `buildFeeBumpTransaction` in our backend.
 - **Multi-Signature Logic**: Approval-based contracts natively enforce N-of-M signatures on the Stellar network before executing a payload, ensuring true trustless multi-party escrow.
 
@@ -216,8 +216,8 @@ Completed a thorough security review of the application's auth flow, transaction
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/AssetBLOCK.git
-cd AssetBLOCK
+git clone https://github.com/yourusername/ConditionalBLOCK.git
+cd ConditionalBLOCK
 ```
 
 ### 2. Backend Setup
@@ -253,7 +253,7 @@ Access the application at `http://localhost:5173`.
 
 ## 🔐 How Wallet Authentication Works
 
-AssetBlock supports modern wallet authentication. When you log in with **Freighter**, the application:
+ConditionalBlock supports modern wallet authentication. When you log in with **Freighter**, the application:
 1. Requests your public key from the extension.
 2. The backend generates a secure cryptographic challenge (XDR).
 3. Freighter prompts you to sign this challenge.

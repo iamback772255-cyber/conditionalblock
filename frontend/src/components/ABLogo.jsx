@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * AB Logo component - renders the AssetBlock "AB" monogram logo as an inline SVG.
+ * AB Logo component - renders the ConditionalBlock "AB" monogram logo as an inline SVG.
  * Supports custom size and className props.
  */
 export default function ABLogo({ size = 40, className = '', style = {} }) {

@@ -1,5 +1,5 @@
 -- ============================================================
--- AssetBLOCK PostgreSQL Schema for Supabase
+-- ConditionalBLOCK PostgreSQL Schema for Supabase
 -- Run this in the Supabase SQL Editor to create all tables.
 -- ============================================================
 

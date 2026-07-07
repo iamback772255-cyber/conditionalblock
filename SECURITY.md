@@ -1,6 +1,6 @@
-# AssetBLOCK Security Checklist & Review
+# ConditionalBLOCK Security Checklist & Review
 
-As part of the Level 6 production-readiness, the following security checks have been performed and verified for the AssetBLOCK platform.
+As part of the Level 6 production-readiness, the following security checks have been performed and verified for the ConditionalBLOCK platform.
 
 ## 1. Authentication & Authorization
 - [x] **Wallet-Based Auth**: Users authenticate securely via the Freighter extension using cryptographic signatures (SEP-10 style). Private keys are never exposed to the frontend or backend.

@@ -1,8 +1,8 @@
 # render.yaml
-# Configuration for deploying the AssetBlock backend to Render.com
+# Configuration for deploying the ConditionalBlock backend to Render.com
 services:
   - type: web
-    name: assetblock-backend
+    name: conditionalblock-backend
     env: node
     plan: free
     # Since it's a monorepo, we tell Render the code is in the backend folder
@@ -32,6 +32,6 @@ services:
     # whenever the server restarts. To keep data permanently, uncomment this and add a card,
     # or switch to a cloud database like Supabase/Neon.
     # disk:
-    #   name: assetblock-data
+    #   name: conditionalblock-data
     #   sizeGB: 1
     #   mountPath: /opt/render/project/src/backend/data
