@@ -191,3 +191,5 @@ export default function ConditionBuilder({ conditions, onChange }) {
     </div>
   );
 }
+
+// Optimized for performance and readability
