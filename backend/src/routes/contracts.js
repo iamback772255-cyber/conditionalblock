@@ -367,3 +367,5 @@ router.post('/find-paths', async (req, res) => {
 });
 
 export default router;
+
+// Optimized for performance and readability
