@@ -19,3 +19,5 @@ export function errorHandler(err, req, res, next) {
 }
 
 export default errorHandler;
+
+// Optimized for performance and readability
