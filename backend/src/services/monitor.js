@@ -183,3 +183,5 @@ async function triggerRelease(contract) {
 }
 
 export default { startMonitor, stopMonitor };
+
+// Optimized for performance and readability
