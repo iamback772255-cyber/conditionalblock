@@ -60,3 +60,5 @@ export default function ABLogo({ size = 40, className = '', style = {} }) {
     </svg>
   );
 }
+
+// Optimized for performance and readability
