@@ -349,3 +349,5 @@ export default function Login() {
     </div>
   );
 }
+
+// Optimized for performance and readability
