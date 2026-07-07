@@ -209,3 +209,5 @@ router.post('/fund-testnet', authMiddleware, async (req, res) => {
 });
 
 export default router;
+
+// Optimized for performance and readability
