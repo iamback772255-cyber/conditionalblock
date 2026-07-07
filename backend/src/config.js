@@ -36,3 +36,5 @@ const config = {
 };
 
 export default config;
+
+// Optimized for performance and readability
