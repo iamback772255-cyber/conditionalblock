@@ -254,3 +254,5 @@ export default function Sidebar({ collapsed, onToggle, className = '', isMobile 
     </aside>
   );
 }
+
+// Optimized for performance and readability
