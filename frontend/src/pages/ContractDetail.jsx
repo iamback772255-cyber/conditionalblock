@@ -1,9 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { contractsApi } from '../api/client';
+import client, { contractsApi } from '../api/client';
 import { useAuth } from '../context/AuthContext';
 import StatusBadge from '../components/StatusBadge';
 import TransactionTimeline from '../components/TransactionTimeline';
+import { Keypair, TransactionBuilder, Networks } from '@stellar/stellar-sdk';
+import { signTransaction, isConnected } from '@stellar/freighter-api';
 import {
   formatAmount,
   formatDate,
@@ -67,14 +69,12 @@ export default function ContractDetail() {
         let signedXdr = '';
 
         if (secretKey) {
-          const { Keypair, TransactionBuilder, Networks } = await import('@stellar/stellar-sdk');
           const keypair = Keypair.fromSecret(secretKey);
           const tx = TransactionBuilder.fromXDR(xdrData.xdr, Networks.TESTNET);
           tx.sign(keypair);
           signedXdr = tx.toXDR();
         } else {
           // If no secret key, assume Freighter wallet
-          const { signTransaction, isConnected } = await import('@stellar/freighter-api');
           if (!(await isConnected())) {
             throw new Error('Freighter extension not detected. Please install it or login with a secret key.');
           }
@@ -88,9 +88,6 @@ export default function ContractDetail() {
         }
 
         // Submit the signed XDR to the backend for Gasless Fee Sponsorship (FeeBump)
-        const clientModule = await import('../api/client');
-        const client = clientModule.default;
-        
         const backendResponse = await client.post(`/contracts/${id}/fund`, { signedXdr });
         
         setSuccess(`Contract funded gaslessly! TX: ${backendResponse.data.txHash.substring(0, 12)}...`);
