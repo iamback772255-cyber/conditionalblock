@@ -14,8 +14,7 @@ ConditionalBlock is a decentralized application (dApp) that enables users to cre
 ---
 
 ## 🔗 Live App
-https://asset-block.vercel.app/
-
+https://conditionalblock.vercel.app
 ## 🎥 Video
 
 https://github.com/user-attachments/assets/3fa744c5-9ad0-4ec8-9ce2-b409dd064293
@@ -28,10 +27,7 @@ Since ConditionalBlock uses native Stellar smart-escrow accounts (dynamically ge
 
 ---
 
-
-This project has been validated with real testnet users as part of the Level 5 requirements.
-
-### 👥 Level 6: Production Scaling (50+ Verified Active Users)
+### 👥 Level 5: Production Scaling (50+ Verified Active Users)
 As part of the final production readiness phase, we have scaled the platform and validated with over 50 testnet users.
 
 #### Table 1: Verified User Addresses
