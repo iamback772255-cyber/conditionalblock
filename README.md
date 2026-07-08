@@ -17,7 +17,7 @@ ConditionalBlock is a decentralized application (dApp) that enables users to cre
 https://conditionalblock.vercel.app
 
 ## 🎥 Video
-https://github.com/user-attachments/assets/3fa744c5-9ad0-4ec8-9ce2-b409dd064293
+https://github.com/user-attachments/assets/188fbd03-9ede-4146-9875-bbeb19a979a8
 
 ## 📊 Pitch Deck
 [View ConditionalBlock Presentation](https://docs.google.com/presentation/d/1JNl5VAtENI5yzRkw1rH0btirg2gotEiboL9tTWRA7GA/edit?usp=sharing)
@@ -127,10 +127,10 @@ ConditionalBLOCK highlights two core advanced features:
 
 ### 2. Live Metrics & Monitoring Dashboard 📊
 The platform features an active internal metrics dashboard (DAU, transactions, retention) and an infrastructure monitoring dashboard (System health, DB latency, Worker status).
-- **Metrics Dashboard:** <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/2afa83f7-d5c1-4e0e-830f-068f1ed14020" />
+- **Metrics Dashboard:** <img width="1851" height="802" alt="image" src="https://github.com/user-attachments/assets/c1fc2419-b38a-4354-a5f1-8c72942d75c8" />
 
 
-- **Monitoring Dashboard:**<img width="1902" height="845" alt="image" src="https://github.com/user-attachments/assets/8498968c-36b7-458c-9eb4-ab3d3f2b1c7d" />
+- **Monitoring Dashboard:**<img width="1851" height="908" alt="image" src="https://github.com/user-attachments/assets/e5dd15f0-971f-4b15-827e-78ddedc60d43" />
 
 ### 3. Data Indexing 🗃️
 Implemented robust data indexing for smart contracts via our backend using Supabase PostgreSQL.
