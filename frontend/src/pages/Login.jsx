@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { authApi } from '../api/client';
 import { generateKeypair, isValidSecretKey, publicKeyFromSecret } from '../utils/stellar';
 import { Key, RefreshCw, Wallet, ArrowRight, ShieldCheck } from 'lucide-react';
-import ABLogo from '../components/ABLogo';
+import CBLogo from '../components/CBLogo';
 import { isConnected, getAddress, signTransaction, setAllowed } from '@stellar/freighter-api';
 
 export default function Login() {
@@ -138,7 +138,7 @@ export default function Login() {
 
       <div className="login-container">
         <div className="login-logo">
-          <ABLogo
+          <CBLogo
             size={80}
             style={{
               margin: '0 auto 20px',

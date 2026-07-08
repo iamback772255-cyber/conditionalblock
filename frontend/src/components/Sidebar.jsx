@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { feedbackApi } from '../api/client';
 import { useAuth } from '../context/AuthContext';
-import ABLogo from './ABLogo';
+import CBLogo from './CBLogo';
 
 const navItems = [
   { path: '/', label: 'Dashboard', icon: LayoutDashboard },
@@ -86,7 +86,7 @@ export default function Sidebar({ collapsed, onToggle, className = '', isMobile 
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <ABLogo size={40} />
+          <CBLogo size={40} />
           {(!collapsed || isMobile) && (
             <div style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}>
               <div style={{ fontWeight: 800, fontSize: '1rem', lineHeight: 1.2 }}>ConditionalBlock</div>
