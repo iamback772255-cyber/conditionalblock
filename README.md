@@ -20,7 +20,7 @@ https://conditionalblock.vercel.app
 https://github.com/user-attachments/assets/3fa744c5-9ad0-4ec8-9ce2-b409dd064293
 
 ## 📊 Pitch Deck
-[View ConditionalBlock Presentation](https://docs.google.com/presentation/d/1uocvJ1eBm-RQEVuluGAAaFJ8B1C9ik_9rKXkx-SvPIg/edit?usp=sharing)
+[View ConditionalBlock Presentation](https://docs.google.com/presentation/d/1JNl5VAtENI5yzRkw1rH0btirg2gotEiboL9tTWRA7GA/edit?usp=sharing)
 
 ---
 
