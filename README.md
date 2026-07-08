@@ -1,4 +1,4 @@
-
+<img width="412" height="660" alt="image" src="https://github.com/user-attachments/assets/3b5a7374-7e08-4873-be85-8165a3207200" />
 
 
 
@@ -164,14 +164,14 @@ Completed a thorough security review of the application's auth flow, transaction
 <!-- PLACEHOLDER: Insert desktop screenshots here -->
 
 <p align="center">
-  <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/4becb0dd-cf28-4293-834c-b65820948ea1" />
-  <img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/70773366-e02e-45c7-894c-52276b3591ce" />
+ <img width="1853" height="912" alt="image" src="https://github.com/user-attachments/assets/a8264da8-8789-4a60-84f4-4e5cb93bca88" />
 </p>
 
 ### Mobile Experience
 <!-- PLACEHOLDER: Insert mobile screenshots here -->
 <p align="center">
-  <img width="30%" alt="image" src="https://github.com/user-attachments/assets/74cd9461-c3fa-47ef-9c76-ad0769fe5299" /> <img width="30%" alt="image" src="https://github.com/user-attachments/assets/96fa56a6-ab46-46ac-8bc9-757d33c3230e" />
+  <img width="398" height="657" alt="image" src="https://github.com/user-attachments/assets/d51afde8-5c52-41df-b7df-e761c2e8007c" />
+ ![Uploading image.png…]
 </p>
 
 ---
