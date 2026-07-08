@@ -1,4 +1,3 @@
-<img width="412" height="660" alt="image" src="https://github.com/user-attachments/assets/3b5a7374-7e08-4873-be85-8165a3207200" />
 
 
 
@@ -171,7 +170,7 @@ Completed a thorough security review of the application's auth flow, transaction
 <!-- PLACEHOLDER: Insert mobile screenshots here -->
 <p align="center">
   <img width="398" height="657" alt="image" src="https://github.com/user-attachments/assets/d51afde8-5c52-41df-b7df-e761c2e8007c" />
- ![Uploading image.png…]
+<img width="412" height="660" alt="image" src="https://github.com/user-attachments/assets/3b5a7374-7e08-4873-be85-8165a3207200" />
 </p>
 
 ---
