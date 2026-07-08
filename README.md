@@ -138,9 +138,6 @@ Implemented robust data indexing for smart contracts via our backend using Supab
 Completed a thorough security review of the application's auth flow, transaction builder, and data models.
 - **[View the Security Checklist (SECURITY.md)](SECURITY.md)**
 
-### 5. Community Contribution 🌍
-- **Twitter Post:** https://x.com/RajkumarSh18704/status/2048349207099253028?s=20
-
 ---
 
 ## ✨ Key Features
