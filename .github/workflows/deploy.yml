@@ -30,6 +30,14 @@ jobs:
         working-directory: ./frontend
         run: npm run build
 
+      - name: Install Rust toolchain
+        run: |
+          rustup update stable
+          rustup target add wasm32-unknown-unknown
+
+      - name: Build Smart Contract
+        run: cargo build --target wasm32-unknown-unknown --release
+
       - name: Upload build artifacts
         if: success()
         uses: actions/upload-artifact@v4
@@ -67,3 +75,9 @@ jobs:
       - name: Deploy to Vercel
         working-directory: ./frontend
         run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Install Soroban CLI (Mock)
+        run: echo "Mock Soroban CLI install for deployment"
+
+      - name: Deploy Smart Contract
+        run: echo "stellar contract deploy --wasm target/wasm32-unknown-unknown/release/conditional_escrow.wasm --source admin"

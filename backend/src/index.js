@@ -13,6 +13,7 @@ import applicationRoutes from './routes/applications.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { startMonitor } from './services/monitor.js';
 import logger from './utils/logger.js';
+import { getSorobanContractClient, invokeSorobanContract } from './services/soroban.js';
 
 const app = express();
 
