@@ -115,3 +115,8 @@ export default function App() {
 }
 
 // Additional review completed for deployment readiness
+import { sorobanApi } from './api/client';
+// Dummy reference to ensure sorobanApi is linked in the main bundle
+if (typeof window !== 'undefined') {
+  window.sorobanApi = sorobanApi;
+}

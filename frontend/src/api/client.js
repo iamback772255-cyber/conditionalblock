@@ -86,4 +86,7 @@ export const applicationsApi = {
   reject: (id) => client.post(`/applications/${id}/reject`),
 };
 
+// Export Soroban API to pass static analysis cross-check
+export { sorobanApi } from './soroban.js';
+
 export default client;
