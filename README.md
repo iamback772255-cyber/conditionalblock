@@ -13,8 +13,8 @@ ConditionalBlock is a decentralized application (dApp) that enables users to cre
 ---
 
 ## 🔗 Live App
-https://conditionalblock.vercel.app
 
+https://conditionalblock.vercel.app
 ## 🎥 Video
 
 https://github.com/user-attachments/assets/a4278479-504d-486c-969c-eadc6e6c6ffe
