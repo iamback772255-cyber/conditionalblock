@@ -16,7 +16,8 @@ ConditionalBlock is a decentralized application (dApp) that enables users to cre
 https://conditionalblock.vercel.app
 
 ## 🎥 Video
-https://github.com/user-attachments/assets/188fbd03-9ede-4146-9875-bbeb19a979a8
+
+https://github.com/user-attachments/assets/a4278479-504d-486c-969c-eadc6e6c6ffe
 
 ## 📊 Pitch Deck
 [View ConditionalBlock Presentation](https://docs.google.com/presentation/d/1JNl5VAtENI5yzRkw1rH0btirg2gotEiboL9tTWRA7GA/edit?usp=sharing)
@@ -126,10 +127,12 @@ ConditionalBLOCK highlights two core advanced features:
 
 ### 2. Live Metrics & Monitoring Dashboard 📊
 The platform features an active internal metrics dashboard (DAU, transactions, retention) and an infrastructure monitoring dashboard (System health, DB latency, Worker status).
-- **Metrics Dashboard:** <img width="1851" height="802" alt="image" src="https://github.com/user-attachments/assets/c1fc2419-b38a-4354-a5f1-8c72942d75c8" />
+- **Metrics Dashboard:** <img width="1851" height="802" alt="Screenshot 2026-07-08 125026" src="https://github.com/user-attachments/assets/0fba598b-3116-46bb-8d40-832a729842f2" />
 
+<img width="1853" height="912" alt="Screenshot 2026-07-08 125308" src="https://github.com/user-attachments/assets/9aec96b7-36ba-4d4b-99ab-01c70570d770" />
 
-- **Monitoring Dashboard:**<img width="1851" height="908" alt="image" src="https://github.com/user-attachments/assets/e5dd15f0-971f-4b15-827e-78ddedc60d43" />
+- **Monitoring Dashboard:**<img width="1851" height="908" alt="Screenshot 2026-07-08 124912" src="https://github.com/user-attachments/assets/474e757e-662d-48b8-8e8f-91f778395a9c" />
+
 
 ### 3. Data Indexing 🗃️
 Implemented robust data indexing for smart contracts via our backend using Supabase PostgreSQL.
@@ -163,7 +166,7 @@ Completed a thorough security review of the application's auth flow, transaction
 <!-- PLACEHOLDER: Insert desktop screenshots here -->
 
 <p align="center">
- <img width="1853" height="912" alt="image" src="https://github.com/user-attachments/assets/a8264da8-8789-4a60-84f4-4e5cb93bca88" />
+ 
 </p>
 
 ### Mobile Experience
