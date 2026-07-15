@@ -129,7 +129,6 @@ ConditionalBLOCK highlights two core advanced features:
 The platform features an active internal metrics dashboard (DAU, transactions, retention) and an infrastructure monitoring dashboard (System health, DB latency, Worker status).
 - **Metrics Dashboard:** <img width="1851" height="802" alt="Screenshot 2026-07-08 125026" src="https://github.com/user-attachments/assets/0fba598b-3116-46bb-8d40-832a729842f2" />
 
-<img width="1853" height="912" alt="Screenshot 2026-07-08 125308" src="https://github.com/user-attachments/assets/9aec96b7-36ba-4d4b-99ab-01c70570d770" />
 
 - **Monitoring Dashboard:**<img width="1851" height="908" alt="Screenshot 2026-07-08 124912" src="https://github.com/user-attachments/assets/474e757e-662d-48b8-8e8f-91f778395a9c" />
 
@@ -166,14 +165,14 @@ Completed a thorough security review of the application's auth flow, transaction
 <!-- PLACEHOLDER: Insert desktop screenshots here -->
 
 <p align="center">
- 
+<img width="1853" height="912" alt="Screenshot 2026-07-08 125308" src="https://github.com/user-attachments/assets/9aec96b7-36ba-4d4b-99ab-01c70570d770" />
 </p>
 
 ### Mobile Experience
 <!-- PLACEHOLDER: Insert mobile screenshots here -->
 <p align="center">
-  <img width="398" height="657" alt="image" src="https://github.com/user-attachments/assets/d51afde8-5c52-41df-b7df-e761c2e8007c" />
-<img width="412" height="660" alt="image" src="https://github.com/user-attachments/assets/3b5a7374-7e08-4873-be85-8165a3207200" />
+ <img width="412" height="660" alt="Screenshot 2026-07-08 125536" src="https://github.com/user-attachments/assets/d0973f86-6bf3-49fb-8947-c74517ddb312" />
+<img width="398" height="657" alt="Screenshot 2026-07-08 125448" src="https://github.com/user-attachments/assets/efeb41ed-00bd-49fe-bfbd-15efae8daf3e" />
 </p>
 
 ---
