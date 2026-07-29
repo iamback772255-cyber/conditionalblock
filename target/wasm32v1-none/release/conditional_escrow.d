@@ -1,0 +1,1 @@
+C:\Users\Victus\Downloads\AssetBLOCK-main\nn\conditionalblock\target\wasm32v1-none\release\conditional_escrow.wasm: C:\Users\Victus\Downloads\AssetBLOCK-main\nn\conditionalblock\contracts\conditional_escrow\src\lib.rs
